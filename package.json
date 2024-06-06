@@ -12,6 +12,11 @@
   "dependencies": {
     "react-native": "^0.74.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HusenMasmumas/vsc_app_test3.git"
+  },
+  "homepage": "https://github.com/HusenMasmumas/vsc_app_test3",
   "devDependencies": {
     "@babel/cli": "^7.24.6",
     "@babel/core": "^7.24.6",
