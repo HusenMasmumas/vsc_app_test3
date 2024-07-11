@@ -1,7 +1,10 @@
-import React, { Component } from "react";
+declare module "your-package-name" {
+  import * as React from "react";
+  import { ViewProps, TextProps } from "react-native";
 
-interface IProps {}
+  export interface MyComponentProps extends ViewProps, TextProps {}
 
-declare class MyComponent extends Component<IProps> {}
+  const MyComponent: React.FC<MyComponentProps>;
 
-export { MyComponent };
+  export default MyComponent;
+}
