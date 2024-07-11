@@ -1,4 +1,4 @@
-declare module "your-package-name" {
+declare module "vsc-app-test" {
   import * as React from "react";
   import { ViewProps, TextProps } from "react-native";
 
