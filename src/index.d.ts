@@ -1,7 +1,3 @@
-import React, { Component } from "react";
-
-interface IProps {}
-
-declare class MyComponent extends Component<IProps> {}
-
-export { MyComponent };
+declare module "react-native-multiplier" {
+  export const MyComponent: React.ComponentType;
+}
