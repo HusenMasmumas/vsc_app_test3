@@ -6,7 +6,6 @@
     "build": "babel src --out-dir lib && tsc"
   },
   "main": "lib/index.js",
-  "types": "./src/index.d.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
